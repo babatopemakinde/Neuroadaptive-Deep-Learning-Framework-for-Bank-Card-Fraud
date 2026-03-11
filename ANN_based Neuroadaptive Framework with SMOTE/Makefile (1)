@@ -1,0 +1,8 @@
+install:
+	pip install -r requirements.txt
+
+train:
+	python fraud_pipeline.py
+
+clean:
+	rm -rf models/* reports/* src/modules/__pycache__
