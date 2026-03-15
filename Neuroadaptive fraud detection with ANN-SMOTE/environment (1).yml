@@ -1,0 +1,16 @@
+name: fraud_detection
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip:
+    - torch
+    - scikit-learn
+    - pandas
+    - numpy
+    - imbalanced-learn
+    - shap
+    - gradio
+    - joblib
